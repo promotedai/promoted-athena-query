@@ -31,7 +31,6 @@ export const index = async (): Promise<void> =>
 Uses
 - [TypeScript](https://www.typescriptlang.org/) support
 - [React](https://reactjs.org/) support
-- CSS Modules with [PostCSS](https://postcss.org/)
 - [ESLint](https://eslint.org/) (with [React](https://reactjs.org/) and [Prettier](https://prettier.io/))
 - Unit tests ([Jest](https://jestjs.io/) and [Testing Library](https://testing-library.com/))
 - Minified output with [Terser](https://terser.org/)
