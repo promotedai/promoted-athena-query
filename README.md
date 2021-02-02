@@ -25,6 +25,19 @@ export const index = async (): Promise<void> =>
     }).processQuery();
 ```
 
+The results will be passed to batchProcessor in batches in a format where the header columns are the keys in dictionaries.
+```
+const rows=[
+  {
+    platform_id: '1',
+    log_user_id: 'e61261a9-c6ca-443f-90b1-6fd976c67120',
+    client_log_ts: '2021-01-31 14:59:54.257',
+    ...
+  },
+  ...
+]
+```
+
 
 ## Features
 
